@@ -1,8 +1,17 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  background-image: url("https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+   background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.App ul{
+  list-style: none;
 }

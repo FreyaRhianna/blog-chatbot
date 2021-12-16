@@ -10,6 +10,14 @@ class MessageParser {
     if (lowerCaseMessage.includes("hello")) {
       this.actionProvider.greet()
     }
+
+    if (lowerCaseMessage.includes("xai")) {
+      this.actionProvider.handleXaiList()
+    }
+
+    if (lowerCaseMessage.includes("no")) {
+      this.actionProvider.reset()
+    }
   }
 }
 
